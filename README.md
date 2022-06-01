@@ -3,6 +3,8 @@ Módulo para configuração de projetos Python no curso PyTools
 
 Link para o curso [Python Pro] (https://www.python.pro.br/)
 
+[![Build Status](https://app.travis-ci.com/odiegofarias/libpythonpro.svg?branch=main)](https://app.travis-ci.com/odiegofarias/libpythonpro)
+
 Para instalar:
 '''
 python -m venv .venv

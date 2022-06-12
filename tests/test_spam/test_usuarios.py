@@ -9,15 +9,15 @@ Scopes:
 
 
 def test_salvar_usuario(sessao):
-    usuario = Usuario(nome='Diego')
+    usuario = Usuario(nome='Diego', email='diego@email.com.br')
     sessao.salvar(usuario)
     assert isinstance(usuario.id, int)
 
 
 def test_listar_usuarios(sessao):
     usuarios = [
-        Usuario(nome='Diego'),
-        Usuario(nome='Mirela')
+        Usuario(nome='Diego', email='diego@email.com.br'),
+        Usuario(nome='Mirela', email='diego@email.com.br')
     ]
     for usuario in usuarios:
         sessao.salvar(usuario)

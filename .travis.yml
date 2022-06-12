@@ -5,3 +5,4 @@ install
   - pip install -r requeriments.dev.txt
 script:
   -flake8
+  -pytest libpythonpro
